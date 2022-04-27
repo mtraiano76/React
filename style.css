@@ -1,0 +1,25 @@
+body {
+    background-color: lightsteelblue;
+    
+}
+header {
+    background-image: url(/imagen.jpg);
+    background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
+    height: 200px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: end;   
+}
+label {
+    display: inline-block; /*alineamos los input en el mismo margen*/
+    width: 150px;
+}
+div.seleccion {
+    display:flex;
+    flex-direction: inherit;
+    
+}
